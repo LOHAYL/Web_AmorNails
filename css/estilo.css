@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 html{
@@ -97,8 +98,10 @@ button:hover{
     z-index: 10;
     height: 130px;
     width: 130px;
-    margin-left: 65%;
-    margin-top: 165%;
+    /* margin-left: 65%;
+    margin-top: 165%; */
+    bottom:40px;
+	right:40px;
     
 }
 /*  */
@@ -119,6 +122,12 @@ button:hover{
     background-position: center center;
     height: 95vh;
     
+}
+.eslogan-amorNails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .eslogan .amorNails{
@@ -151,6 +160,13 @@ button:hover{
 .queEsAmorNails{
     padding-top: 30px;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_queEsAmor{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -321,4 +337,154 @@ button:hover{
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+
+/* Responsive Index */
+
+
+
+@media (min-width: 1200px) {
+    .navbar-nav a{
+        color: #9c50ff;
+        font-size: 2rem;
+        text-transform: none;
+        
+    }
+
+    .ordenar{
+        width: 65%;
+    }
+
+
+.dp-none{
+    display: block;
+}
+
+.dp-none p{
+    font-size: 2.4rem;
+    color: var(--main-color);
+    width: 551px;
+    text-align: center;
+}
+
+.eslogan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eslogan-amorNails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.eslogan-amorNails h2{
+  
+    font-size: 10rem;
+}
+
+.eslogan-amorNails .every{
+    font-size: 11.3rem;
+}
+   
+.eslogan img{
+    height: 500px;
+    width: 500px;
+}
+
+.boton{
+    margin-top: 30px;
+}
+
+.queEsAmorNails{
+    height: 600px;
+    width: 100%;
+}
+
+.queEsAmorNails{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto_queEsAmor{
+    width: 700px;
+    margin-left: 200px;
+}
+
+.imagen_queEsAmor{
+    margin-right: 200px;
+}
+
+.texto_queEsAmor p{
+    font-size: 2.5rem;
+}
+
+.texto_h3{
+    font-size: 3rem;
+}
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+
+    .dp-none{
+        display: block;
+    }
+    
+    .dp-none p{
+        font-size: 3rem;
+        color: var(--main-color);
+        width: 400px;
+        text-align: center;
+    }
+    
+    .eslogan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .eslogan-amorNails{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .navbar-nav a{
+        color: #9c50ff;
+        font-size: 2rem;
+        text-transform: none;
+        
+    }
+
+
+    .eslogan-amorNails h2{
+        font-size: 7rem;
+    }
+    
+    .eslogan-amorNails .every{
+        font-size: 8.2rem;
+    }
+    .eslogan img{
+        height: 220px;
+        width: 220px;
+    }
+
+    .boton{
+        margin-top: 30px;
+    }
+    
 }
