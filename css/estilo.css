@@ -1,6 +1,9 @@
-html{
+*{
     margin: 0;
     padding: 0;
+}
+
+html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
@@ -38,13 +41,24 @@ button{
 
 }
 
+
 .amorNails{
-    margin-left: 115px;
     font-size: 3rem;
     color: #a86ef5;
     font-weight: bold;
+    
 }
 
+.amorNails_nav{
+    /* margin-left: 115px; */
+}
+
+.ordenar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 .navbar-toggler{
     height: 45px;
     width: 45px;
@@ -52,6 +66,7 @@ button{
     border: 2px solid #9c50ff;
     border-radius: 50%;
     margin: 0 auto;
+    
 
 }
 
@@ -70,8 +85,9 @@ button{
     z-index: 10;
     height: 130px;
     width: 130px;
-    margin-left: 70%;
-    margin-top: 175%;
+    margin-left: 65%;
+    margin-top: 165%;
+    
 }
 /*  */
 
@@ -98,12 +114,12 @@ button{
 }
 
 .eslogan h2{
-    font-size: 6.8rem;
+    font-size: 6.5rem;
     color: var(--main-color);
 }
 
 .eslogan .every{
-    font-size: 8rem;
+    font-size: 7.5rem;
     color: #ec94a8;
     text-transform: uppercase;
     
@@ -117,5 +133,36 @@ button{
 .boton{
     margin-top: 100px;
 }
+
+
+/* Que es Amor Nails */
+.queEsAmorNails{
+    padding-top: 30px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.queEsAmorNails p{
+    font-size: 1.8rem;
+    width: 80%;
+    text-align: center;
+    
+
+    
+}
+.texto_h3{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.queEsAmorNails img{
+    width: 100%;
+    height: 100%;
+}
+
 
 
