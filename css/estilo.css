@@ -15,8 +15,16 @@ html{
     --color-hover: #ec94a8;
 }
 
+h3{
+    font-size: 3rem;
+}
+
 a{
     text-decoration: none;
+}
+
+p{
+    font-size: 2rem;
 }
 
 li{
@@ -35,9 +43,13 @@ button{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
 }
 
+button:hover{
+    background-color: #bc8bfd ;
+}
+
 /* Navbar estilos */
 .navbar{
-    background-color: white;
+    background-color: #f4f4f4;
 
 }
 
@@ -50,7 +62,7 @@ button{
 }
 
 .amorNails_nav{
-    /* margin-left: 115px; */
+    margin-left: 20px;
 }
 
 .ordenar{
@@ -65,7 +77,7 @@ button{
     background-color: #ffc6d3;
     border: 2px solid #9c50ff;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 15px 0 auto;
     
 
 }
@@ -99,7 +111,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 14%;
+    margin-top: 50px;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
     ,url(../img/main.jpg);
     background-repeat: no-repeat;
@@ -162,7 +174,121 @@ button{
 .queEsAmorNails img{
     width: 100%;
     height: 100%;
+    
 }
 
 
+/* Nuestros servicios */
+
+.nuestrosServicios{
+    background-color: #a86ef5;
+}
+
+.carta{
+    height: 400px;
+    width: 300px;
+    border: 3px solid #fca0b6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 35px;
+    padding: 20px 10px;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta p{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+
+.carta-container{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.carta-container h3{
+    color:#fca0b6;
+    font-weight: bold;
+}
+
+.h2-nuestrosServicios{
+    font-size: 4rem;
+    padding-top: 30px;
+    color: var(--main-color);
+    text-align: center;
+
+}
+
+.carta:first-child{
+
+    background-image: 
+    linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../img/esmaltado-express.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carta:nth-child(2){
+    background-image: 
+    linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../img/esculpidas-gel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.carta:nth-child(3){
+    background-image: 
+    linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../img/kapping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.carta:nth-child(4){
+    background-image: 
+    linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../img/nail-art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.carta:nth-child(5){
+    background-image: 
+    linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../img/sos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.carta:nth-child(6){
+    background-image: 
+    linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../img/trendy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
