@@ -339,6 +339,63 @@ button:hover{
     font-weight: bold;
 }
 
+/* PAGE LOCAL */
+
+.h2-local{
+    margin-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #9c50ff;
+}
+
+.imagen-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-texto p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 1px solid blueviolet;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    font-weight:400;
+}
+
+
+.carousel{
+    width: 85%;
+    height: 40vh;
+}
+
+.d-block{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc6d3;
+}
+
+.ubicacion .h2-local{
+    margin-top: 20px;
+}
+
+.mapa{
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
 
 /* Responsive Index */
 
@@ -430,6 +487,246 @@ button:hover{
 }
 
 
+/******* PAGE RESERVAS *******/
+
+.estructura label{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9c50ff;
+}
+
+.container-reserva h2{
+    font-size: 3rem;
+    padding: 15px 0px;
+    color: #9c50ff;
+}
+.estructura{
+    width: 600px;
+    height: 500pxpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+input{
+    margin-right: 15px;    
+    margin-left: 10px;
+}
+
+.orden{
+    padding: 20px 10px;
+}
+
+.box{
+    border: 2px solid #9c50ff;
+    border-radius: 5px;
+    height: 25px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box-texto{
+    height: 100px;
+    width: 330px;
+}
+
+.mensaje{
+    display: flex;
+    align-items: center;
+    
+}
+
+#texto{
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+
+.container-reserva{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.estilo-boton{
+    margin: 0px 10px;
+    width: 50px;
+    height: 30px;
+}
+
+
+
+/* PAGE LOCAL */
+
+.experiencia .h2-local{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #9c50ff;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+.imagen-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 130px;
+    padding-top: 50px;
+    
+}
+
+.imagen-texto p{
+    width: 30%;
+    margin-right: 200px;
+    font-size: 2.3rem;
+    border: none;
+
+}
+
+.carousel{
+    width: 40%;
+    height: 100%;
+    margin-left: 200px;
+}
+
+.d-block{
+    border-radius: 10px;
+}
+
+.mapa{
+    width: 45%;
+}
+
+
+
+
+/* PAGE PREGUNTAS FRECUENTES */
+
+.preg-frec{
+    padding-top: 230px;   
+    font-size: 16px; 
+
+}
+
+.preguntas li{
+    list-style: disc;
+    margin-left: 30px;
+    padding: 10px 0px;
+
+}
+
+.preg-frec h2{
+    font-size: 3.5rem;
+    color: #9c50ff;
+    margin-right: 430px;
+    
+}
+
+.preg-frec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.recuadro{
+    border: 3px solid #9c50ff;
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+.recuadro li{
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.preguntas p{
+    padding: 10px 15px;
+}
+
+.container-preg img{
+    height: 450px;
+}
+
+.container-preg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* CONTACTO */
+
+.section-contacto{
+    padding: 200px;
+}
+
+.section-contacto h2{
+    color: #8c40f0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.box-contacto{
+    height: 300px;
+    width: 600px;
+    border: 2px solid #8c40f0;
+    border-radius: 15px;
+}
+
+.nombre-apell, .correo-contacto{
+    margin: 20px 0px;
+
+}
+
+.correo-contacto{
+    margin-left:4px;
+}
+
+.correo-contacto input{
+    margin-left: 17px;
+    
+}
+
+.box-contacto label{
+    margin: 0px 10px;
+    color: #8c40f0;
+    font-weight: bold;
+}
+
+.box-mensaje{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box-mensaje textarea{
+    margin-left: 9px;
+    width: 400px;
+    height: 153px;
+
+}
+
+.section-contacto img{
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.formulario-contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-contacto h2{
+    padding-bottom: 20px;
+    margin-right: 480px;
+}
 
 
 
