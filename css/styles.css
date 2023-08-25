@@ -9,6 +9,8 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 :root{
     --main-color: #e9e9e9;
     --second-color: #9c50ff;
@@ -340,12 +342,14 @@ button:hover{
 
 /* DERECHOS DE AUTOR */
 
+
 .derechos{
-    background-color: #c5c5c5;
+    background-color:#ffc6d3;
     padding: 15px 0px;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
 
 /* PAGE LOCAL */
@@ -587,8 +591,6 @@ button:hover{
         text-transform: none;
         margin: 0 20px;
         text-transform: uppercase;
-       
-        
     }
 
     .bgcolor.scrolled{
@@ -639,6 +641,7 @@ button:hover{
     background-color: rgb(253,153,161);
     border-radius: 10px 100px / 120px;;
     padding: 5px 10px;
+    
 }
 
 .eslogan-amorNails h2{
@@ -929,4 +932,5 @@ input{
         margin-top: 30px;
     }
     
+}
 }
