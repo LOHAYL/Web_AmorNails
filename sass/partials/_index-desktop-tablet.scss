@@ -1,0 +1,160 @@
+@use "var-func";
+
+
+@media (min-width: 1200px) { 
+
+header {
+
+    .bgcolor.scrolled{
+        background-color: map-get(var-func.$paleta-colores, fondo );
+    }
+    nav{
+
+        background-color: transparent;
+
+        div{
+            a{
+                background-color: map-get(var-func.$paleta-colores, main-color );
+                border-radius: 10px 100px / 120px;;
+                padding: 5px 10px
+            }
+        }
+
+        div{
+
+            .navbar-nav{
+
+                a{
+                    color: map-get(var-func.$paleta-colores, main-color );
+                    font-size: 2rem;
+                    margin: 0 20px;
+                    text-transform: uppercase;
+                    
+                }
+
+            }
+        }
+    }
+}
+
+main {
+
+    .eslogan{
+
+        @include var-func.flex-box(row,space-around,center);
+
+        .dp-none{
+            display: block;
+        }        
+
+        margin: 0;
+        height: 100vh;
+
+        div{
+
+            @include var-func.flex-box(column,center,center);
+
+            .dp-none{
+
+                p{
+                    font-size: 2.4rem;
+                    color: map-get(var-func.$paleta-colores, fondo );
+                    width: 551px;
+                    text-align: center;
+                }
+            }
+
+            h2{
+                font-size: 10rem;
+            }
+
+            .every{
+                font-size: 11.3rem;
+            }
+            
+            a{
+                .boton{
+                    margin-top: 30px;
+                }
+            }
+        }
+        img{
+            height: 500px;
+            width: 500px;
+        }
+    }
+
+
+    .queEsAmorNails{
+        @include var-func.flex-box(row,space-around,center);
+
+        .texto{
+            margin-left: 200px;
+            height: 600px;
+            
+
+            h3{
+                font-size: 3rem;
+            }
+
+            p{
+                font-size: 2.5rem;
+            }
+        }
+
+        div{
+            
+            img{
+                margin-right: 200px;
+                height: 500px;
+                width: 500px;
+            }
+        }
+    }
+}
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 1199px) { 
+
+    main{
+
+        .eslogan{
+
+            @include var-func.flex-box(row,space-around,center);
+            .dp-none{
+                display: block;
+            }
+
+            div{
+                @include var-func.flex-box(column,center,center);
+                h2{
+                    font-size: 7rem;
+                }
+    
+                .every{
+                    font-size: 8.2rem;
+                }
+
+            }
+
+            div{
+                p{
+                    font-size: 3rem;
+                    color: map-get(var-func.$paleta-colores, fondo );
+                    width: 400px;
+                    text-align: center;
+                }
+            }
+
+            img{
+                height: 220px;
+                width: 220px;
+            }
+        }
+    }
+
+}
