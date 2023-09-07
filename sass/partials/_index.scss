@@ -60,15 +60,16 @@ main{
     }
 
     .eslogan{
-        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../img/main.jpg);
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(../../img/main.jpg);
         @include var-func.bg-image;
         margin-top: 50px;
         height: 95vh;
         @include var-func.flex-box(column,center,center);
+        background-attachment: fixed;
 
         div{
 
-        
+            
             @include var-func.flex-box(column,center,center);
             
 
@@ -126,7 +127,8 @@ main{
     }
 
     .nuestrosServicios{
-        background-color: map-get(var-func.$paleta-colores , second-color);
+        background-image: url(../../img/stacked-peaks-haikei-mobile.png);
+        @include var-func.bg-image;
 
         div{
 

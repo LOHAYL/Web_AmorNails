@@ -7,6 +7,7 @@ header {
 
     .bgcolor.scrolled{
         background-color: map-get(var-func.$paleta-colores, fondo );
+        
     }
     nav{
 
@@ -40,20 +41,19 @@ header {
 main {
 
     .eslogan{
-
-        @include var-func.flex-box(row,space-around,center);
-
         .dp-none{
             display: block;
         }        
 
+        @include var-func.flex-box(column,center,flex-start);
         margin: 0;
         height: 100vh;
 
-        div{
+        .texto{
 
             @include var-func.flex-box(column,center,center);
-
+            margin-left: 40px;
+    
             .dp-none{
 
                 p{
@@ -111,56 +111,11 @@ main {
             }
         }
     }
-}
 
-}
-
-
-
-
-@media (min-width: 576px) and (max-width: 1199px) { 
-
-    main{
-
-        .eslogan{
-
-            @include var-func.flex-box(row,space-around,center);
-            .dp-none{
-                display: block;
-            }
-
-            div{
-                @include var-func.flex-box(column,center,center);
-                h2{
-                    font-size: 7rem;
-                }
-    
-                .every{
-                    font-size: 8.2rem;
-                }
-
-                a{
-                    .boton{
-                        margin-top: 30px;
-                    }
-                }
-
-            }
-
-            div{
-                p{
-                    font-size: 3rem;
-                    color: map-get(var-func.$paleta-colores, fondo );
-                    width: 400px;
-                    text-align: center;
-                }
-            }
-
-            img{
-                height: 220px;
-                width: 220px;
-            }
-        }
+    .nuestrosServicios{
+        background-image: url(../../img/stacked-peaks-haikei.png);
     }
+}
 
 }
+

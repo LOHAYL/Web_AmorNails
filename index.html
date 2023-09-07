@@ -7,6 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <!-- animacion texto -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- animacion AOS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Nav de transparente a solido -->
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
@@ -14,26 +26,32 @@
       crossorigin="anonymous"
     />
 
+    <!-- fuentes de texto -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Sans+JP:wght@400;600&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+
+    <!-- Enlace CSS -->
+
     <link rel="stylesheet" href="./css/styles.css" />
+
   </head>
   <body>
     <div class="grilla">
       <header>
         <nav class="navbar fixed-top navbar-expand-sm bgcolor">
           <div class="container-fluid">
-            <a class="navbar-brand amorNails" href="./index.html"
-              >Amor Nails</a
-            >
+            <a class="navbar-brand amorNails" href="./index.html">Amor Nails</a>
             <div>
               <button
                 class="navbar-toggler"
@@ -85,7 +103,8 @@
         </div>
 
         <section class="eslogan">
-          <div>
+
+          <div class="texto">
             <h2>Nail Arts for</h2>
             <h2 class="every">Everyone</h2>
 
@@ -97,33 +116,24 @@
               <p>es es hacer que tus manos se vean geniales</p>
             </div>
             <a href="./pages/reservas.html">
-              <button class="boton">Solicitar Turno</button>
+              <button class="button type1"></button>
             </a>
           </div>
 
-          <img
-            src="./img/esmalte.png"
-            class="dp-none img-fluid"
-            alt="imagen de esmaltes"
-            class="esmalte"
-          />
         </section>
 
         <section class="queEsAmorNails">
-          <div class="texto">
+          <div class="texto " data-aos="fade-up">
             <h3>
               Te contamos que es <span class="amorNails">Amor Nails</span>
             </h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              nostrum error praesentium neque? Molestiae in quos tempora, nam
-              deserunt explicabo iure, atque facere labore obcaecati ipsa
-              cupiditate ipsum velit voluptatibus.
+              Amor Nails es un refugio de belleza donde la creatividad florece en cada uña. Nuestro equipo de artistas de uñas expertos se dedica a transformar tus uñas en verdaderas obras de arte, utilizando las últimas tendencias y productos de alta calidad. En un ambiente relajante y acogedor, te mimaremos y aseguraremos que tus uñas reflejen tu estilo único.
             </p>
           </div>
 
-          <div >
-            <img src="./img/amor-nails.jfif" alt="logo de AmorNails" />
+          <div>
+            <img src="./img/amor-nails.jfif" data-aos="fade-up" alt="logo de AmorNails" />
           </div>
         </section>
 
@@ -131,53 +141,47 @@
           <div class="container-sm">
             <h2>Nuestros Servicios</h2>
             <div class="carta-container">
-              <div class="carta carta1">
+              <div class="carta carta1" data-aos="fade-right">
                 <h3>Esmaltado Express</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusantium nostrum eos asperiores
+                  Brilla en minutos. Nuestro Esmaltado Express ofrece color y estilo de manera rápida y duradera
                 </p>
-                <button>+ Info</button>
+                <button class="button_card">+ Info</button>
               </div>
-              <div class="carta carta2">
-                <h3>Eculpidas en gel</h3>
+              <div class="carta carta2" data-aos="fade-left">
+                <h3>Esculpidas en gel</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusantium nostrum eos asperiores
+                  Diseño de uñas de lujo con durabilidad. Nuestras Uñas Esculpidas te ofrecen belleza y resistencia
                 </p>
-                <button>+ Info</button>
+                <button class="button_card">+ Info</button>
               </div>
-              <div class="carta carta3">
+              <div class="carta carta3" data-aos="fade-right">
                 <h3>Kapping</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusantium nostrum eos asperiores
+                  Protección superior. El servicio Kapping fortalece tus uñas naturales, asegurando su salud y belleza
                 </p>
-                <button>+ Info</button>
+                <button class="button_card">+ Info</button>
               </div>
-              <div class="carta carta4">
+              <div class="carta carta4" data-aos="fade-left">
                 <h3>Nail Art</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusantium nostrum eos asperiores
+                  Creatividad sin límites. En Amor Nails, transformamos tus uñas en lienzos de arte, creando diseños únicos y espectaculares
                 </p>
-                <button>+ Info</button>
+                <button class="button_card">+ Info</button>
               </div>
-              <div class="carta carta5">
+              <div class="carta carta5" data-aos="fade-right">
                 <h3>S.O.S</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusantium nostrum eos asperiores
+                  ¿Uñas en apuros? ¡Nuestro servicio S.O.S. para Uñas está aquí para salvar el día!
                 </p>
-                <button>+ Info</button>
+                <button class="button_card">+ Info</button>
               </div>
-              <div class="carta carta6">
+              <div class="carta carta6" data-aos="fade-left">
                 <h3>Trendy Nails</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusantium nostrum eos asperiores
+                  A la vanguardia de la moda. Nuestro servicio Trendy Nails te ofrece las últimas tendencias en uñas para lucir a la moda
                 </p>
-                <button>+ Info</button>
+                <button class="button_card">+ Info</button>
               </div>
             </div>
           </div>
@@ -193,14 +197,14 @@
                 href="https://www.instagram.com/amor.nails.roma/"
                 target="_blank"
               >
-                <img src="./img/instagram-icon.png" alt="Logo Instagram" />
+                <img src="./img/instagram-icon.png" data-aos="flip-left" data-aos-duration="1500" alt="Logo Instagram" />
               </a>
 
               <a
                 href="https://www.instagram.com/amor.nails.roma/"
                 target="_blank"
               >
-                <img src="./img/facebook-icon.png" alt="Logo Facebook" />
+                <img src="./img/facebook-icon.png" data-aos="flip-left" alt="Logo Facebook" />
               </a>
             </div>
           </div>
@@ -211,6 +215,7 @@
         </section>
       </footer>
     </div>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -238,6 +243,14 @@
       $(window).scroll(function () {
         $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
       });
+    </script>
+
+    <!-- script AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
