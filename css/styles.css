@@ -48,8 +48,39 @@ button:hover {
 
 .amorNails {
   font-size: 3rem;
-  color: #9c50ff;
+  color: #a86ef5;
   font-weight: 500;
+}
+
+.form_reserva, .section-contacto .form_contacto {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(253, 153, 161);
+  padding: 30px 20px;
+  border-radius: 25% 10%;
+}
+
+.form-label {
+  font-size: 1.5rem;
+  margin-left: 15px;
+  color: #e9e9e9;
+  font-weight: bold;
+}
+
+.form-control {
+  height: 35px;
+  border: 2px solid #a86ef5;
+}
+
+.btn {
+  background-color: #a86ef5;
+  height: 30px;
+  width: 70px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e9e9e9;
+  margin-bottom: 10px;
 }
 
 header nav {
@@ -71,7 +102,7 @@ header nav div div .navbar-toggler {
   height: 45px;
   width: 45px;
   background-color: rgb(253, 153, 161);
-  border: 2px solid #9c50ff;
+  border: 2px solid #a86ef5;
   border-radius: 10px;
   margin: 0 15px 0 auto;
 }
@@ -152,7 +183,7 @@ main .queEsAmorNails div img {
   height: 100%;
 }
 main .nuestrosServicios {
-  background-color: #9c50ff;
+  background-color: #a86ef5;
 }
 main .nuestrosServicios div h2 {
   font-size: 4rem;
@@ -398,7 +429,7 @@ footer .derechos {
   margin-bottom: 20px;
 }
 .preg-frec .button-mp {
-  background-color: #9c50ff;
+  background-color: #a86ef5;
 }
 .preg-frec .contenedor-titulo {
   padding: 20px 0px;
@@ -453,7 +484,7 @@ footer .derechos {
   padding-bottom: 20px;
   text-align: center;
   font-size: 2rem;
-  color: #9c50ff;
+  color: #a86ef5;
   font-weight: bold;
 }
 .experiencia .imagen-texto {
@@ -499,7 +530,7 @@ footer .derechos {
   padding-bottom: 20px;
   text-align: center;
   font-size: 2rem;
-  color: #9c50ff;
+  color: #a86ef5;
   font-weight: bold;
 }
 .section-ubicacion .ubicacion iframe {
@@ -539,6 +570,105 @@ footer .derechos {
   }
   .section-ubicacion .ubicacion iframe {
     width: 45%;
+  }
+}
+.formulario .dp-none {
+  display: none;
+}
+.formulario h1 {
+  margin-top: 100px;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #a86ef5;
+}
+
+@media (min-width: 1200px) {
+  .formulario {
+    display: grid;
+    grid-template-areas: "titulo titulo" "formulario calendario";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+  }
+  .formulario .dp-none {
+    display: block;
+  }
+  .formulario h1 {
+    grid-area: titulo;
+    font-size: 4rem;
+  }
+  .formulario .form_reserva {
+    grid-area: formulario;
+    width: 450px;
+    justify-self: center;
+  }
+  .formulario img {
+    grid-area: calendario;
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1199px) {
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario h1 {
+    font-size: 4rem;
+  }
+  .formulario .form_reserva {
+    width: 60%;
+  }
+  .formulario img {
+    grid-area: calendario;
+    width: 400px;
+    height: 400px;
+  }
+}
+.section-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-contacto h1 {
+  margin-top: 100px;
+  font-size: 3rem;
+  color: #a86ef5;
+  font-weight: bold;
+  text-align: center;
+}
+.section-contacto .form_contacto {
+  background-color: #a86ef5;
+  width: 90%;
+}
+.section-contacto img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (min-width: 1200px) {
+  .section-contacto {
+    display: grid;
+    grid-template-areas: "titulo titulo" "form imagen";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+  }
+  .section-contacto h1 {
+    grid-area: titulo;
+    font-size: 4rem;
+  }
+  .section-contacto .form_contacto {
+    grid-area: form;
+    width: 500px;
+  }
+  .section-contacto img {
+    grid-area: imagen;
+    width: 450px;
+    height: 450px;
   }
 }
 

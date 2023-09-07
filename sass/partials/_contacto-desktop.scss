@@ -1,0 +1,33 @@
+@use "var-func";
+
+@media (min-width: 1200px){
+
+    .section-contacto{
+
+        display: grid;
+        grid-template-areas: 
+        "titulo titulo"
+        "form imagen";
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-evenly;
+    
+        h1{
+            grid-area: titulo;
+            font-size: 4rem;
+        }
+    
+        .form_contacto{
+            grid-area: form;
+            width: 500px;
+        }
+    
+        img{
+            grid-area: imagen;
+            width: 450px;
+            height: 450px;
+        }
+    }
+
+}
+

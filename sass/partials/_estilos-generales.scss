@@ -1,5 +1,6 @@
 @use "var-func";
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -54,4 +55,39 @@ button:hover{
     color: map-get(var-func.$paleta-colores, second-color);
     font-weight: 500;
     
+}
+
+
+// ESTILOS DE LOS FORMS
+
+.form_reserva{
+
+    margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: map-get(var-func.$paleta-colores, main-color);
+        padding: 30px 20px;
+        border-radius: 25% 10%;;
+}
+    
+.form-label{
+        font-size: 1.5rem;
+        margin-left: 15px;
+        color: map-get(var-func.$paleta-colores, fondo );
+        font-weight: bold;
+}
+    
+.form-control{
+        height: 35px;
+        border: 2px solid map-get(var-func.$paleta-colores, second-color );
+}
+
+.btn{
+        background-color: map-get(var-func.$paleta-colores, second-color );
+        height: 30px;
+        width: 70px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: map-get(var-func.$paleta-colores, fondo );
+        margin-bottom: 10px;
 }
