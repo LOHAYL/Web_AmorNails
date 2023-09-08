@@ -65,9 +65,7 @@
             font-size: 3rem;
             font-weight: bold;
             color: map-get(var-func.$paleta-colores, fondo );
-            background-color: map-get(var-func.$paleta-colores, borde-curvo );
-            padding: 20px 0px;
-            border-radius: 10px 100px / 120px;
+            @include var-func.borde-curvo(20px,0px,map-get(var-func.$paleta-colores, borde-curvo ));
 
         }
 

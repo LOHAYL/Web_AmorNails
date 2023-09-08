@@ -33,13 +33,13 @@ li {
 .button {
   height: 50px;
   width: 150px;
-  border: 2px solid rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
-  background-color: rgb(253, 153, 161);
+  background-color: rgb(252, 157, 165);
   margin-top: 3rem;
 }
 
@@ -51,7 +51,7 @@ li {
   content: "AHORA MISMO";
   height: 50px;
   width: 150px;
-  background-color: #a86ef5;
+  background-color: #b589ee;
   color: #fff;
   position: absolute;
   top: 0%;
@@ -69,7 +69,7 @@ li {
   content: "Reserva tu turno";
   height: 50px;
   width: 150px;
-  background-color: rgb(253, 153, 161);
+  background-color: rgb(252, 157, 165);
   color: #fff;
   position: absolute;
   top: 0%;
@@ -120,7 +120,7 @@ li {
 
 .amorNails {
   font-size: 3rem;
-  color: #a86ef5;
+  color: #b589ee;
   font-weight: 500;
 }
 
@@ -128,7 +128,7 @@ li {
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: rgb(253, 153, 161);
+  background-color: rgb(252, 157, 165);
   padding: 30px 20px;
   border-radius: 25% 10%;
 }
@@ -136,27 +136,27 @@ li {
 .form-label {
   font-size: 1.5rem;
   margin-left: 15px;
-  color: #e9e9e9;
+  color: white;
   font-weight: bold;
 }
 
 .form-control {
   height: 35px;
-  border: 2px solid #a86ef5;
+  border: 2px solid #b589ee;
 }
 
 .btn {
-  background-color: #a86ef5;
+  background-color: #b589ee;
   height: 30px;
   width: 70px;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #e9e9e9;
+  color: white;
   margin-bottom: 10px;
 }
 
 header nav {
-  background-color: rgb(253, 153, 161);
+  background-color: rgb(252, 157, 165);
 }
 header nav div {
   display: flex;
@@ -164,17 +164,21 @@ header nav div {
   justify-content: space-around;
   align-items: center;
 }
-header nav div .amorNails {
-  margin-left: 20px;
-  color: #e9e9e9;
+header nav div .logo {
+  color: white;
   font-weight: bold;
   font-size: 2.5rem;
+  margin-left: 10px;
+}
+header nav div .logo:hover {
+  color: #b589ee;
+  transition: all 0.7s;
 }
 header nav div div .navbar-toggler {
   height: 45px;
   width: 45px;
-  background-color: rgb(253, 153, 161);
-  border: 2px solid #a86ef5;
+  background-color: rgb(252, 157, 165);
+  border: 2px solid #b589ee;
   border-radius: 10px;
   margin: 0 15px 0 auto;
 }
@@ -183,6 +187,10 @@ header nav div ul .nav-link {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+header nav div ul .nav-link:hover {
+  color: #b589ee;
+  transition: 0.7s;
 }
 
 main div a img {
@@ -214,11 +222,11 @@ main .eslogan div {
 }
 main .eslogan div h2 {
   font-size: 6.5rem;
-  color: #e9e9e9;
+  color: white;
 }
 main .eslogan div .every {
   font-size: 7.5rem;
-  color: rgb(253, 153, 161);
+  color: rgb(252, 157, 165);
   text-transform: uppercase;
 }
 main .eslogan div .boton {
@@ -264,7 +272,7 @@ main .nuestrosServicios {
 main .nuestrosServicios div h2 {
   font-size: 4rem;
   padding-top: 30px;
-  color: #e9e9e9;
+  color: white;
   text-align: center;
 }
 main .nuestrosServicios div .carta-container {
@@ -275,12 +283,12 @@ main .nuestrosServicios div .carta-container {
 main .nuestrosServicios div .carta-container .carta {
   height: 400px;
   width: 300px;
-  border: 3px solid rgb(253, 153, 161);
+  border: 3px solid rgb(252, 157, 165);
   border-radius: 15px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   margin: 20px 35px;
   padding: 20px 10px;
-  color: #e9e9e9;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -291,7 +299,7 @@ main .nuestrosServicios div .carta-container .carta p {
   text-align: center;
 }
 main .nuestrosServicios div .carta-container .carta h3 {
-  color: rgb(253, 153, 161);
+  color: rgb(252, 157, 165);
   font-weight: bold;
 }
 main .nuestrosServicios div .carta-container .carta1 {
@@ -357,18 +365,21 @@ footer .derechos {
 
 @media (min-width: 1200px) {
   header .bgcolor.scrolled {
-    background-color: #e9e9e9;
+    background-color: white;
   }
   header nav {
     background-color: transparent;
   }
   header nav div a {
-    background-color: rgb(253, 153, 161);
+    background-color: rgb(252, 157, 165);
     border-radius: 10px 100px/120px;
     padding: 5px 10px;
   }
+  header nav div a h1 {
+    margin-left: 0;
+  }
   header nav div .navbar-nav a {
-    color: rgb(253, 153, 161);
+    color: rgb(252, 157, 165);
     font-size: 2rem;
     margin: 0 20px;
     text-transform: uppercase;
@@ -393,7 +404,7 @@ footer .derechos {
   }
   main .eslogan .texto .dp-none p {
     font-size: 2.4rem;
-    color: #e9e9e9;
+    color: white;
     width: 551px;
     text-align: center;
   }
@@ -456,14 +467,14 @@ footer .derechos {
 }
 .preg-frec .accordion-body {
   font-size: 1.5rem;
-  border: 3px dashed rgb(253, 153, 161);
+  border: 3px dashed rgb(252, 157, 165);
   border-radius: 10px;
   font-weight: 500;
 }
 .preg-frec .accordion-button {
   font-size: 2rem;
   background-color: #f788a2;
-  color: #e9e9e9;
+  color: white;
   border-radius: 10px;
 }
 .preg-frec .accordion-item {
@@ -473,7 +484,7 @@ footer .derechos {
   margin-bottom: 20px;
 }
 .preg-frec .button-mp {
-  background-color: #a86ef5;
+  background-color: #b589ee;
 }
 .preg-frec .contenedor-titulo {
   padding: 20px 0px;
@@ -484,7 +495,7 @@ footer .derechos {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
-  color: #e9e9e9;
+  color: white;
   background-color: #f788a2;
   padding: 20px 0px;
   border-radius: 10px 100px/120px;
@@ -504,7 +515,7 @@ footer .derechos {
     display: block;
   }
   .preg-frec .contenedor-titulo h1 {
-    color: #e9e9e9;
+    color: white;
     font-size: 4rem;
     padding: 30px 0px;
   }
@@ -520,7 +531,7 @@ footer .derechos {
     justify-items: center;
   }
   .preg-frec .politicas img {
-    height: 600px;
+    height: 500px;
   }
 }
 .experiencia h1 {
@@ -528,7 +539,7 @@ footer .derechos {
   padding-bottom: 20px;
   text-align: center;
   font-size: 2rem;
-  color: #a86ef5;
+  color: #b589ee;
   font-weight: bold;
 }
 .experiencia .imagen-texto {
@@ -548,7 +559,7 @@ footer .derechos {
   border-radius: 10% 10%;
   background-color: #c79ffc;
   padding: 20px;
-  color: #e9e9e9;
+  color: white;
 }
 .experiencia .imagen-texto .carousel {
   width: 85%;
@@ -557,6 +568,16 @@ footer .derechos {
 .experiencia .imagen-texto .carousel .d-block {
   height: 40vh;
   border-radius: 10px;
+}
+.experiencia .imagen-texto .carousel .carousel-indicators .active {
+  background-color: #b589ee;
+  border-radius: 0px;
+}
+.experiencia .imagen-texto .carousel button {
+  border-radius: 20px;
+}
+.experiencia .imagen-texto .carousel button:hover {
+  background-color: #b589ee;
 }
 
 .section-ubicacion {
@@ -574,7 +595,7 @@ footer .derechos {
   padding-bottom: 20px;
   text-align: center;
   font-size: 2rem;
-  color: #a86ef5;
+  color: #b589ee;
   font-weight: bold;
 }
 .section-ubicacion .ubicacion iframe {
@@ -616,26 +637,56 @@ footer .derechos {
     width: 45%;
   }
 }
+.formulario {
+  background-image: url(../../img/fondo-pages.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.formulario p {
+  width: 80%;
+  font-size: 1.5rem;
+  background-color: #b589ee;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.formulario .form_reserva {
+  width: 80%;
+  margin-bottom: 50px;
+}
 .formulario .dp-none {
   display: none;
 }
 .formulario h1 {
-  margin-top: 100px;
+  padding-top: 100px;
   font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
-  color: #a86ef5;
+  color: #b589ee;
 }
 
 @media (min-width: 1200px) {
   .formulario {
     display: grid;
-    grid-template-areas: "titulo titulo" "formulario calendario";
+    grid-template-areas: "titulo titulo" "parrafo calendario" "formulario calendario";
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
+    justify-items: center;
   }
   .formulario .dp-none {
     display: block;
+  }
+  .formulario p {
+    grid-area: parrafo;
+    width: 500px;
+    font-size: 1.8rem;
   }
   .formulario h1 {
     grid-area: titulo;
@@ -645,11 +696,13 @@ footer .derechos {
     grid-area: formulario;
     width: 450px;
     justify-self: center;
+    margin-bottom: 65px;
   }
   .formulario img {
     grid-area: calendario;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
+    margin-bottom: 100px;
   }
 }
 @media (min-width: 576px) and (max-width: 1199px) {
@@ -672,47 +725,77 @@ footer .derechos {
   }
 }
 .section-contacto {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../../img/bg-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .section-contacto h1 {
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 3rem;
-  color: #a86ef5;
+  color: white;
   font-weight: bold;
   text-align: center;
+  background-color: rgb(252, 157, 165);
+  padding: 10px 10px;
+  border-radius: 10px 100px/120px;
 }
-.section-contacto .form_contacto {
-  background-color: #a86ef5;
+.section-contacto p {
+  font-size: 1.7rem;
+  padding: 10px 10px;
+  background-color: rgb(252, 157, 165);
+  border-radius: 20px;
   width: 90%;
+  color: white;
+  font-weight: bold;
 }
 .section-contacto img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
+}
+.section-contacto .form_contacto {
+  background-color: #b589ee;
+  width: 90%;
+  height: 350px;
+  margin: 0;
+}
+.section-contacto .form_contacto button {
+  background-color: rgb(252, 157, 165);
 }
 
 @media (min-width: 1200px) {
   .section-contacto {
     display: grid;
-    grid-template-areas: "titulo titulo" "form imagen";
+    grid-template-areas: "titulo titulo" "parrafo imagen" "form imagen";
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: space-evenly;
+    justify-items: center;
   }
   .section-contacto h1 {
     grid-area: titulo;
     font-size: 4rem;
+    width: 200px;
   }
   .section-contacto .form_contacto {
     grid-area: form;
+    width: 500px;
+    margin-bottom: 150px;
+  }
+  .section-contacto p {
+    grid-area: parrafo;
     width: 500px;
   }
   .section-contacto img {
     grid-area: imagen;
     width: 450px;
     height: 450px;
+    margin-bottom: 150px;
   }
 }
 

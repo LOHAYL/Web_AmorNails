@@ -1,8 +1,8 @@
 
 $paleta-colores:(
-    main-color: rgb(253,153,161),
-    second-color: #a86ef5,
-    fondo:#e9e9e9,
+    main-color: rgb(252, 157, 165),
+    second-color: #b589ee,
+    fondo:white,
     borde-curvo:#f788a2
     
 
@@ -22,6 +22,11 @@ $paleta-colores:(
     background-position: center center;
 }
 
+@mixin borde-curvo($padding-y , $padding-x, $color){
+    background-color: $color;
+    padding: $padding-y $padding-x;
+    border-radius: 10px 100px / 120px;
+}
 
 $img-cards:(
     carta1: "../../img/esmaltado-express.jpg",

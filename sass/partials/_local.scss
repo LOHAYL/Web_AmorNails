@@ -10,7 +10,7 @@
         font-size: 2rem;
         color: map-get(var-func.$paleta-colores, second-color );
         font-weight: bold;
-
+    
     }
 
     .imagen-texto{
@@ -29,6 +29,7 @@
             background-color: #c79ffc;
             padding: 20px;
             color:map-get(var-func.$paleta-colores, fondo);
+            
         }
 
         .carousel{
@@ -38,6 +39,21 @@
             .d-block{
                 height: 40vh;
                 border-radius: 10px;
+            }
+
+            .carousel-indicators{
+                .active{
+                    background-color: map-get(var-func.$paleta-colores, second-color );
+                    border-radius: 0px;
+                    
+                }
+            }
+
+            button{
+                border-radius: 20px;
+                &:hover{
+                    background-color: map-get(var-func.$paleta-colores, second-color );
+                }
             }
         }
 
