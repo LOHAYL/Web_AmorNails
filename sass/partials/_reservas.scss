@@ -2,7 +2,7 @@
 
 .formulario{
     
-    background-image: url(../../img/fondo-pages.jpg);
+    background-image: url(../img/fondo-pages.jpg);
     @include var-func.bg-image;
     @include var-func.flex-box(column,center,center);
     height: 100vh;
