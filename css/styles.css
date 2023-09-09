@@ -439,9 +439,6 @@ footer .derechos {
     height: 500px;
     width: 500px;
   }
-  main .nuestrosServicios {
-    background-image: url(../img/stacked-peaks-haikei.png);
-  }
 }
 .preg-frec {
   display: flex;
