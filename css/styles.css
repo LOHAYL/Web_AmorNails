@@ -202,7 +202,7 @@ main div a img {
   right: 10px;
 }
 main .eslogan {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../img/main.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img/main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -264,7 +264,7 @@ main .queEsAmorNails div img {
   height: 100%;
 }
 main .nuestrosServicios {
-  background-image: url(../img/stacked-peaks-haikei-mobile.png);
+  background-image: url(img/stacked-peaks-haikei-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -303,37 +303,37 @@ main .nuestrosServicios div .carta-container .carta h3 {
   font-weight: bold;
 }
 main .nuestrosServicios div .carta-container .carta1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/esmaltado-express.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/esmaltado-express.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 main .nuestrosServicios div .carta-container .carta2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/esculpidas-gel.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/esculpidas-gel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 main .nuestrosServicios div .carta-container .carta3 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/kapping.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/kapping.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 main .nuestrosServicios div .carta-container .carta4 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nail-art.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/nail-art.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 main .nuestrosServicios div .carta-container .carta5 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sos.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 main .nuestrosServicios div .carta-container .carta6 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/trendy.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/trendy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -638,7 +638,7 @@ footer .derechos {
   }
 }
 .formulario {
-  background-image: url(../img/fondo-pages.jpg);
+  background-image: url(img/fondo-pages.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -730,7 +730,7 @@ footer .derechos {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/bg-contacto.jpg);
+  background-image: url(img/bg-contacto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
