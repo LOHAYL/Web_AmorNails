@@ -4,7 +4,7 @@
 .section-contacto{
     height: 100vh;
     @include var-func.flex-box(column,center,center);
-    background-image: url(img/bg-contacto.jpg);
+    background-image: url(../img/bg-contacto.jpg);
     @include var-func.bg-image;
 
     h1{
