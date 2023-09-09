@@ -264,10 +264,7 @@ main .queEsAmorNails div img {
   height: 100%;
 }
 main .nuestrosServicios {
-  background-image: url(../img/stacked-peaks-haikei-mobile.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient(to bottom, #d169ff, #c857ec, #c044da, #b62fc7, #ad10b5);
 }
 main .nuestrosServicios div h2 {
   font-size: 4rem;

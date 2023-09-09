@@ -141,9 +141,8 @@ main{
     }
 
     .nuestrosServicios{
-        background-image: url(../img/stacked-peaks-haikei-mobile.png);
-        @include var-func.bg-image;
-
+        background-image: linear-gradient(to bottom, #d169ff, #c857ec, #c044da, #b62fc7, #ad10b5);
+        
         div{
 
             h2{
