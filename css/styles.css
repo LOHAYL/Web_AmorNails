@@ -206,7 +206,7 @@ main .eslogan {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: 50px;
+  margin-top: 30px;
   height: 95vh;
   display: flex;
   flex-direction: column;
@@ -259,9 +259,9 @@ main .queEsAmorNails div p {
   width: 80%;
   text-align: center;
 }
-main .queEsAmorNails div img {
-  width: 100%;
-  height: 100%;
+main .queEsAmorNails img {
+  height: 350px;
+  width: 350px;
 }
 main .nuestrosServicios {
   background-image: linear-gradient(to bottom, #d169ff, #c857ec, #c044da, #b62fc7, #ad10b5);
@@ -437,7 +437,7 @@ footer .derechos {
   main .queEsAmorNails div img {
     margin-right: 200px;
     height: 500px;
-    width: 500px;
+    width: 400px;
   }
 }
 .preg-frec {
