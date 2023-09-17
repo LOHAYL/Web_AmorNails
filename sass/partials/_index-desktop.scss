@@ -39,6 +39,21 @@ header {
 
             }
         }
+
+        div{
+            ul{
+                .nav-link{
+
+                 &:hover{
+                    color: map-get(var-func.$paleta-colores, second-color );
+                    transition: .7s;
+                 }
+                 
+                }
+            }
+        }
+
+        
     }
 }
 

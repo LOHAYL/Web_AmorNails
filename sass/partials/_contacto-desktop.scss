@@ -6,7 +6,7 @@
 
         display: grid;
         grid-template-areas: 
-        "titulo titulo"
+        "titulo ."
         "parrafo imagen"
         "form imagen";
         grid-template-columns: auto auto;
@@ -37,6 +37,11 @@
             width: 450px;
             height: 450px;
             margin-bottom: 150px;
+
+            &:hover{
+                transform: scale(1.2);
+                transition: all 0.3s;
+            }
         }
     }
 

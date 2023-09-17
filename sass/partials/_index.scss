@@ -8,8 +8,6 @@ header {
         background-color: map-get(var-func.$paleta-colores, main-color );
         
         div{
-
-            @include var-func.flex-box(row,space-around,center);
             
             .logo{
                 
@@ -33,7 +31,7 @@ header {
                     height: 45px;
                     width: 45px;
                     background-color: map-get(var-func.$paleta-colores, main-color);
-                    border: 2px solid map-get(var-func.$paleta-colores, second-color);
+                    border: 3px solid #9f68e6;
                     border-radius: 10px;
                     margin: 0 15px 0 auto;
                 }
@@ -41,17 +39,12 @@ header {
         }
 
         div{
-            ul{
+            ul{          
                 .nav-link{
                     text-align: center;
                     font-size: 1.5rem;
                     text-transform: uppercase;
                     font-weight: bold;
-
-                 &:hover{
-                    color: map-get(var-func.$paleta-colores, second-color );
-                    transition: .7s;
-                 }
                 }
             }
         }
